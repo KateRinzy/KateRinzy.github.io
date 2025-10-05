@@ -1,0 +1,2 @@
+- [ ] make website to host my book
+- [ ] add css to make it pretty
