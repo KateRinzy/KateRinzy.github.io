@@ -9,6 +9,7 @@
 
 .name {
     font-family: "The Suavity", sans-serif;
+    font-size: 4em;
 }
 
 body {
@@ -35,7 +36,6 @@ body {
 h1 {
     text-align: center;
     color: #50394c;
-    font-size: 4em;
 }
 
 h2 {
