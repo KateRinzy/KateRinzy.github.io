@@ -2,6 +2,15 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+@font-face {
+    font-family: "The Suavity";
+    src: url(fonts/the-suavity.ttf);
+}
+
+.name {
+    font-family: "The Suavity", sans-serif;
+}
+
 body {
     background-color: #f4f4f4;
     color: #333;
@@ -26,6 +35,7 @@ body {
 h1 {
     text-align: center;
     color: #50394c;
+    font-size: 4em;
 }
 
 h2 {
