@@ -26,6 +26,12 @@ body {
     overflow: auto;
     padding: 0 20px;
 }
+.poem {
+    max-width: 650px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
 
 .long-citation {
     max-width: 80%;
