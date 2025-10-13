@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @font-face {
@@ -10,11 +10,12 @@
 .name {
     font-family: "The Suavity", sans-serif;
     font-size: 4em;
+    color: #c4a7e7;
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #232136;
+    color: #e0def4;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -22,12 +23,6 @@ body {
 
 .container {
     max-width: 800px;
-    margin: auto;
-    overflow: auto;
-    padding: 0 20px;
-}
-.poem {
-    max-width: 650px;
     margin: auto;
     overflow: auto;
     padding: 0 20px;
@@ -41,17 +36,17 @@ body {
 
 h1 {
     text-align: center;
-    color: #50394c;
+    color: #c4a7e7;
 }
 
 h2 {
-    color: #50394c;
-    border-bottom: 2px solid #50394c;
+    color: #c4a7e7;
+    border-bottom: 2px solid #31748f;
     padding-bottom: 5px;
 }
 
 h3 {
-    color: #50394c;
+    color: #c4a7e7;
 }
 
 ul {
@@ -60,7 +55,7 @@ ul {
 }
 
 li {
-    background: #fff;
+    background: #2a273f;
     margin-bottom: 10px;
     padding: 15px;
     border-radius: 5px;
@@ -69,36 +64,27 @@ li {
 
 a {
     text-decoration: none;
-    color: #ff7e5f;
+    color: #ebbcba;
 }
 
 a:hover {
-    color: #feb47b;
+    color: #f6c177;
 }
 
 .goback {
     display: inline-block;
     padding: 0.1em 0.4em;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #31748f;
+    color: #e0def4;
     text-decoration: none;
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color;
 }
 
-.goback:hover {
-    background-color: #0056b3;
-}
-
-.goback:active {
-    background-color: #004085;
-}
-
-.container p,
 .container ol {
     text-align: justify;
 }
