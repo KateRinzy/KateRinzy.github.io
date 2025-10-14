@@ -77,16 +77,48 @@
         <h2>Contacts</h2>
         <ul>
             <li>
-                <a target="_blank" href="https://github.com/KateRinzy">Github</a>
+                <a target="_blank" href="https://github.com/KateRinzy">
+                    <img src="logos/github-mark-white.svg" alt="GitHub" width="20"
+                        style="vertical-align: middle; margin-right: 5px;">
+                    KateRinzy
+                </a>
             </li>
             <li>
-                <a target="_blank" href="https://x.com/Katherine_ryae">Twitter</a>
+                <a target="_blank" href="https://x.com/Katherine_ryae">
+                    <img src="logos/Logo_of_Twitter.svg" alt="Twitter" width="20"
+                        style="vertical-align: middle; margin-right: 5px;">
+                    Katherine_ryae
+                </a>
             </li>
             <li>
-                <a target="_blank" href="https://bsky.app/profile/katherine-raye.bsky.social">Bluesky</a>
+                <a target="_blank" href="https://bsky.app/profile/katherine-raye.bsky.social">
+                    <img src="logos/Bluesky_Logo.svg" alt="Bluesky" width="20"
+                        style="vertical-align: middle; margin-right: 5px;">
+                    katherine-raye.bsky.social
+                </a>
+            </li>
+            <li onclick="copyToClipboard('kate_raye')" style="cursor: pointer;" title="Click to copy">
+                <img src="logos/Discord-Symbol-Blurple.svg" alt="Discord" width="20"
+                    style="vertical-align: middle; margin-right: 5px;">
+                <span id="discord-text">kate_raye</span>
             </li>
         </ul>
     </div>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function () {
+                var discordText = document.getElementById('discord-text');
+                var originalText = discordText.innerText;
+                discordText.innerText = 'Copied!';
+                setTimeout(function () {
+                    discordText.innerText = originalText;
+                }, 2000);
+            }, function (err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
 </body>
 
 </html>
